@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
     font-family: 'Poppins', sans-serif;
    
 }
@@ -135,21 +136,17 @@ height: 500px;
         color:#3B82F6 ;
         font-weight: 900;
     }
-    .Image-card-section{
-        width: 600px;
-        margin-right: 100px;
-
-    }
+   
     
     .container {
-        background-color: #ffffff;
+        
         
         padding: 30px;
         border-radius: 5px;
         margin-top: 21px;
         display: flex;
         align-items: center;
-        margin-bottom: 165px;
+        margin-bottom: 50px;
     }
     
     .image-cards {
@@ -206,6 +203,7 @@ height: 500px;
     #price{
         font-weight: 900;
         color: cornflowerblue;
+        font-size: 18px;
     }
     
     .image-card {
@@ -215,6 +213,72 @@ height: 500px;
        
     
     }
+    /* discount price */
+    .best-resorts{
+        padding-top: 20px;
+        background-color: #EFF6FF;
+        padding-bottom: 20px;
+    }
+    .discount-price{
+        text-decoration:line-through ;
+        color: rgb(143, 83, 88);
+        font-weight: 800;
+
+    }
+    .contact{
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+        margin: auto;
+        margin-top: 30px ;
+        padding: 40px 0;
+        margin-bottom: 30px;
+        border-radius: 6px;
+        background-color: rgba(47, 146, 226, 0.733);
+
+    }
+    .halfw-left{
+        color: white;
+    }
+    #par{
+        margin-top: 50px;
+    }
+    .contact .halfw-left p{
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+    }
+    #conact-heading{
+        font-family: 'Merriweather', serif;
+        font-weight: 900;
+    }
+    .halfw-right{
+
+    }
+    .input-item{
+        padding: 6px 25px;
+        border: none;
+        margin-bottom: 10px;
+    }
+    .btn{
+        background-color:cornflowerblue ;
+
+    }
+    .fotter{
+        background-color: darkblue;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 60px 10px;
+        color: white;
+        
+    }
+    .info{
+        font-family: 'Merriweather', serif;
+        font-weight: 700;
+    }
+
+       
+        
+    
     
          
         
