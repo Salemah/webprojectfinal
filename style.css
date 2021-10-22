@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.Topbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #067DC2;
+    line-height: 30px;
+    color: white;
+    
+   
+    
+}
+.top{
+    margin-right: 80px;
+    margin-left: 80px;
+}
+header{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    
+   
+}
+#logo{
+    width: 64px;
+    height: 28px;
+    padding: 10px;
+    margin-left: 70px;
+}
+.nav-bar  {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+
+}
+.nav-bar li a {
+    margin-left:20px ;
+    text-decoration: none;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+   
+    
+}
+.nav-bar li  :hover {
+    color: white;
+   background-color:#067DC2 ;
+   border-radius: 6px;
+   
+    
+}
+.btn{
+    background-color: #067DC2; 
+    border: none;
+    color: white;
+    font-weight: 600;
+   padding: 10px 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-right: 70px;
+    
+   
+}
+.btn:hover{
+    background-color:#3B82F6 ;
+}
+/* body start */
+.bgimg{
+background-image:url(images/hero-bg.jpeg) ;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: center;
+opacity: 90%;
+background-blend-mode: darken;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    /* height: 460px; */
+    border-radius: 30px;
+   
+}
+#find{
+    padding: 50px 0;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.search{
+    text-align: center;
+}
+#search-box{
+    font-size: 15px;
+    padding:10px 100px 10px 10px ;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0px;
+}
+.bgimg a{
+    text-decoration: none;
+    color: white;
+    background-color: #067DC2;
+    padding: 11px 14px;
+    border-radius: 5px;
+    margin-left: -3px;
+}
+.bgimg a:hover{
+    background-color:#3B82F6 ;
+
+}
+    
+      
+        
+      
