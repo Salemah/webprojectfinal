@@ -129,6 +129,12 @@ height: 500px;
 }
     /* image section complete */
     /* image card start */
+    #packege-header {
+        text-align: center;
+        margin-top: 30px;
+        color:#3B82F6 ;
+        font-weight: 900;
+    }
     .Image-card-section{
         width: 600px;
         margin-right: 100px;
