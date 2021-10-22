@@ -75,21 +75,20 @@ header{
 }
 /* body start */
 .bgimg{
-background-image:url(images/hero-bg.jpeg) ;
+background-image:linear-gradient(0deg, rgba(72, 108, 133, 0.6), rgba(17, 15, 16, 0.6)),url(images/hero-bg.jpeg) ;
 background-repeat: no-repeat;
-background-size: cover;
-align-items: center;
-opacity: 90%;
-background-blend-mode: darken;
+background-size: 1300px;
+height: 500px;
+/* align-items: center; */
     width: 80%;
     margin: auto;
     margin-top: 30px;
-    /* height: 460px; */
     border-radius: 30px;
+  
    
 }
 #find{
-    padding: 50px 0;
+    padding: 50px 0 20px 0 ;
     font-size: 40px;
     color: white;
     text-align: center;
@@ -100,7 +99,7 @@ background-blend-mode: darken;
 }
 #search-box{
     font-size: 15px;
-    padding:10px 100px 10px 10px ;
+    padding:15px 490px 15px 10px ;
     align-items: center;
     border-radius: 5px;
     border: none;
@@ -110,15 +109,25 @@ background-blend-mode: darken;
     text-decoration: none;
     color: white;
     background-color: #067DC2;
-    padding: 11px 14px;
+    padding: 10px 14px;
     border-radius: 5px;
-    margin-left: -3px;
+    margin-left: -90px;
 }
 .bgimg a:hover{
     background-color:#3B82F6 ;
 
 }
-    
+#calender{
+   background-color:#1E415A ; 
+   width: 30%;
+   margin: auto;
+   color: white;
+   padding: 5px;
+   margin-top:20px;
+   border-radius: 6px;
+   margin-bottom: 100px;
+}
+    /* image section complete */
       
         
       
