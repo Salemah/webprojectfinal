@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.login-body{
+  
+    margin: auto;
+
+
+}
+.container{
+    display:flex;
+    justify-content: center;
+    
+    
+
+}
+.left-img img{
+    width:50%;
+    margin-left: 30px;
+}
+.right-half{
+    width: 100%;
+}
+.inp{
+    width: 40%;
+    padding:8px ;
+   
+    margin-bottom: 13px;
+}
+#Forgot-pass
+{
+    margin-left: 185px;
+}
+#check-box{
+    margin-bottom: 25px;
+
+}
+#sign-in-button{
+   
+    text-decoration: none;
+    background-color: #067DC2;
+    padding: 10px 14px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.sign-up-link{
+    margin-top: 20px;
+
+}
