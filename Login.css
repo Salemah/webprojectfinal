@@ -2,38 +2,44 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgba(116, 122, 133, 0.452);
+}
+
+#logo{
+    width: 50px;
+    margin-bottom: 20px;
+}
 .login-body{
-  
-    margin: auto;
+  width: 50%;
+    margin:auto;
+   
+}
 
 
-}
-.container{
-    display:flex;
-    justify-content: center;
-    
-    
-
-}
-.left-img img{
-    width:50%;
-    margin-left: 30px;
-}
 .right-half{
+    text-align: center;
+   padding: 50px 0;
+    background-image: linear-gradient(0deg, rgba(72, 108, 133, 0.6), rgba(17, 15, 16, 0.6)), url(images/7.jpg);
+    background-size: 500px;
     width: 100%;
+    color: white;
+    margin-top: 100px;
 }
 .inp{
     width: 40%;
     padding:8px ;
-   
-    margin-bottom: 13px;
+    margin-bottom: 18px;
 }
 #Forgot-pass
 {
-    margin-left: 185px;
+    margin-left: 40px;
+    color: rgb(163, 199, 233);
+   
 }
 #check-box{
-    margin-bottom: 25px;
+    margin-bottom: 40px;
+    
 
 }
 #sign-in-button{
@@ -44,8 +50,12 @@
     border-radius: 5px;
     color: white;
     
+    
 }
 .sign-up-link{
-    margin-top: 20px;
+    margin-top: 40px;
 
+}
+.Sign-Up{
+    color:rgb(163, 199, 233) ;
 }
