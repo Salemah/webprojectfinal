@@ -1,10 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+}
 .Main-container{
+    
     display: flex;
-    grid-template-columns: repeat(1fr,3fr );
+    background-color: wheat;
+    padding: 40px 0 0 40px;
+    /* grid-template-columns: repeat(1fr,3fr ); */
     /* justify-content: space-between; */
 }
 .img-head{
     display: flex;
+    margin-top: 10px;
+    
+}
+.left{
+  
+
 }
 .right-admin{
     margin-top: 0px;
@@ -46,8 +59,84 @@
     border-radius: 5px;
 }
 .right-dashboard{
+    background-color: white;
     margin-left: 50px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
 }
 .fas{
     color:#067DC2 ;
+}
+.image-box{
+    display: flex;
+    
+   
+   
+}
+.first-box{
+   
+    margin-right: 10px;
+    padding: 40px 70px;
+    border-radius: 5px;
+}
+#s1{
+    background-color: turquoise;
+}
+#s2{
+    background-color: rgb(91, 144, 175);
+}
+#s3{
+    background-color: rgb(10, 155, 238);
+}
+.first-box h1{
+    color: white;
+
+}
+.first-box  h3{
+    color: rgb(74, 87, 49);
+}
+/* table style */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 76%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+hr{
+    width: 70%;
+    margin-left: -4px;
+}
+.btn{
+    background-color:#067DC2 ;
+    border: none;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
 }
