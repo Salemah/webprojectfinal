@@ -7,7 +7,7 @@ body {
     width: 360px;
     height: 620px;
     margin: auto;
-    background-color: white;
+    background-color: #bfc0c249;
     border-radius: 3px;
   }
   
@@ -47,25 +47,25 @@ body {
     border-radius: 6px;
     outline: none;
   }
-  #sign-in-button{
+form a{
+      text-decoration: none;
+      
+      padding: 10px 130px;
     width: 320px;
     height: 35px;
     margin-top: 20px;
     border: none;
+    border-radius: 6px;
     background-color: #067DC2;
     color: white;
     font-size: 18px;
 
   }
-  input[type="button"] {
-    width: 320px;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    background-color: #067DC2;
-    color: white;
-    font-size: 18px;
+
+ #confrm{
+      margin-bottom: 20px;
   }
+
   p {
     text-align: center;
     padding-top: 20px;
