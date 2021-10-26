@@ -81,6 +81,9 @@ text-decoration: none;
     display: flex;
     justify-content: space-evenly;
 }
+.top{
+    margin-bottom: 50px;
+}
 .order{
     background-color: #197eb85e;
     width: 100%;
