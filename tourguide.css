@@ -30,12 +30,16 @@ body{
     background-color: white;
     border-left:1px solid gray ;
     border-right:1px solid gray ;
-    padding-top: 15px;
+    /* padding-top: 15px; */
 }
 .list li{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-bottom: 1px solid gray;
-    padding-bottom: 15px;
+    padding: 15px;
+
+}
+.list li:hover{
+    background-color: #21a4f05e;
 
 }
 .list li a{
@@ -67,10 +71,26 @@ text-decoration: none;
     background-color:#197eb85e ;
     padding:20px 0px ;
 }
+
 .right-middle h1{
     margin-left: 10px;
+    padding: 10px;
+    margin-top: 5px;
 }
-#tddata th{
+.Guide-Data{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px ;
+    padding:10px;
+    background-color: #197eb85e;
+
+}
+.Guide-Data p{
+   
+    padding:10px;
+    font-size: 19px;
+}
+/* #tddata th{
     background-color:#197eb85e ;
     padding:5px 104px ;
     border: none;
@@ -80,18 +100,23 @@ text-decoration: none;
     background-color:#acadad5e ;
     text-align: center;
     padding:10px 0 ;
-}
+} */
 .bottom-setion{
     margin-top: 15px;
     display: flex;
     justify-content: space-evenly;
+    margin-left: 15px;
+    margin-bottom: 20px;
 }
 .order{
     background-color: #197eb85e;
-
+    text-align: center;
     margin-right: 10px;
     padding: 30px 90px;
    
+}
+.order:hover{
+    background-color:#21a4f05e ;
 }
 .packge-name{
     color: rgb(77, 78, 131);
