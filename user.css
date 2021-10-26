@@ -33,8 +33,8 @@ body{
     padding-top: 15px;
 }
 .list li{
-    margin-bottom: 20px;
     
+    padding: 15px;
     border-bottom: 1px solid gray;
 
 }
@@ -50,6 +50,7 @@ text-decoration: none;
 }
 .right-middle{
     display: flex;
+    
 
 }
 .right-top{
@@ -65,33 +66,62 @@ text-decoration: none;
 .right-middle h1{
     margin-left: 10px;
 }
+table,th,td{
+    border-collapse: collapse;
+    
+   
+}
+
 #tddata th{
     background-color:#197eb85e ;
-    padding:5px 104px ;
+    padding:5px 103px  ;
     border: none;
     text-align: center;
+    border: 1px solid rgb(3, 3, 10);
 }
 #tddata td{
     background-color:#acadad5e ;
     text-align: center;
     padding:10px 0 ;
+    border: 1px solid rgb(3, 3, 10);
 }
-.bottom-setion{
+.bottomtop-setion{
     margin-top: 15px;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+
 }
 .top{
     margin-bottom: 50px;
 }
+.bottom{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
 .order{
     background-color: #197eb85e;
     width: 100%;
-    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
     padding: 30px ;
+    border-radius: 5px;
+    
    
 }
 .packge-name{
     color: coral;
     font-size: 18px;
+}
+#profile-name{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
