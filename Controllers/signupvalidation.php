@@ -1,4 +1,10 @@
 <?php
+include('../controllers/signupjson.php');
+
+?>
+
+
+<?php
 session_start();
 require_once('../Model/usersmodel.php');
 
