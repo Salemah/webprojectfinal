@@ -15,16 +15,16 @@
      
          <div class="login-body">
             <div class="right-half">
-                <form action="admin.html">
+                <form action="../Controllers/logcheck.php" method="POST">
                     <img id="logo" src="images/logo.png" alt=""><br>
-                <input class="inp" type="email" name="" id="" placeholder="Email"><br>
-                <input class="inp" type="password" name="" id="" placeholder="Password"><br>
+                <input class="inp" type="text" name="email" id="" placeholder="Email"><br>
+                <input class="inp" type="password" name="password" id="" placeholder="Password"><br>
                 <input type="checkbox" name="" id="check-box"> Remember Me
                 <a href="" id="Forgot-pass">Forgotten Password?</a><br>
-                <input id="sign-in-button"  type="submit" value="login">
+                <input id="sign-in-button" name="login"  type="submit" value="login">
     
           
-                <p class="sign-up-link">Don't Have an account..? <a href="Signup.html" class="Sign-Up">Sign Up</a> here</p>
+                <p class="sign-up-link">Don't Have an account..? <a href="Signup.php" class="Sign-Up">Sign Up</a> here</p>
             </form>
             </div>
          </div>

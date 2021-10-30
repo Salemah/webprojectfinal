@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,8 +22,11 @@
                         <img id="imgs" src="images/travel-luggage.png" alt="">
                     </div>
                     <div class="right-admin">
-                        <h3>Admin</h3>
-                        <span>admin@gmail.com</span>
+                        <?php  session_start();
+                        echo $_SESSION['email'];
+                        ?>
+                        <!-- <h3>Admin</h3>
+                        <span>admin@gmail.com</span> -->
 
                     </div>
 
@@ -32,8 +36,8 @@
                     <li><a href="#"> User Data </a></li>
                     <li><a href="#">Packeges</a></li>
                     <li><a href="#">Accounts</a></li>
-                    <input id="logout-button" type="submit" name="btn" value="Log out">
-                </div>
+                    <button id="logout-button"><a href="logout.php">Logout</a></button>
+                 </div>
             </div>
             <div class="right-dashboard">
                 <h2> <i class="fas fa-home"></i> Dashboard</h2>

@@ -48,8 +48,9 @@
                 <div class="profile-pic">
                     <div class="top-pic">
                         <img src="images/pro.jpg" alt="">
-                        <p>TourGuide</p>
-                        <p>guide@gmail.com</p>
+                        <?php  session_start();
+                        echo $_SESSION['email'];
+                        ?>
                     </div>
                     <div class="list">
                         <li> <a href="">My Profile </a> </li>
@@ -57,7 +58,7 @@
                         <li> <a href="">Total Guide </a> </li>
                         <li> <a href="">Edit Profile </a> </li>
                         <li> <a href="">Tour Packege </a> </li>
-
+                        <button id="logout-button"><a href="logout.php">Logout</a></button>
                     </div>
                 </div>
             </div>

@@ -17,13 +17,17 @@
                     <div class="top-pic">
                         <img src="images/pro.jpg" alt="">
                         <p>Name</p>
-                        <p>user@gmail.com</p>
+                        <p><?php  session_start();
+                        echo $_SESSION['email'];
+                        ?>
+                        </p>
                     </div>
                     <div class="list">
                         <li> <a href="">My Profile </a> </li>
                         <li> <a href="">Recent Order </a> </li>
                         <li> <a href="">Recent Tour </a> </li>
                         <li> <a href="">Edit Profile </a> </li>
+                        <button id="logout-button"><a href="logout.php">Logout</a></button>
 
                     </div>
                 </div>

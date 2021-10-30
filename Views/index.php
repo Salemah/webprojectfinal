@@ -24,7 +24,7 @@
     </div>
   </section>
     <header>
-     <img  id="logo" src="images/travel-luggage.png" alt=""> 
+     <img  id="logo" src="//Resources/images/Lugage.png" alt=""> 
         <nav class=""  >
             <ul class="nav-bar">
                 <li><a href="#">Home</a></li>
@@ -36,7 +36,7 @@
                 <li><a href="">Contact Us</a></li>
               </ul>
         </nav>
-        <a class="btn" href="Login.html">Sign in</a>
+        <a class="btn" href="Login.php">Sign in</a>
     </header>
     <section>
       <div class="">
