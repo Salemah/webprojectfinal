@@ -9,17 +9,7 @@ if(isset($_POST['submit'])){
     $userpassword = $_POST['userpassword'];
     $confirmpassword = $_POST['confirmpassword'];
     $usertype = $_POST['usertypes'];
-//     $selected_usertyes =  filter_input(
-// 	INPUT_POST,
-// 	'usertypes',
-// 	FILTER_SANITIZE_STRING,
-// 	FILTER_REQUIRE_ARRAY
-//     );
-//     if ($selected_usertyes){
-//         foreach ($selected_usertyes as $usertypes){
-//                 echo $usertypes; 
-//         }
-//     }
+
 
    function nameValidation($username){
         if($username == ""){
@@ -80,7 +70,7 @@ if(isset($_POST['submit'])){
                     'confirmpassword' => $confirmpassword,
                     'usertype' => $usertype
                 ];
-                // print_r($userinfo);
+            
                 $status = insertUser($userinfo);
                 if($status){
                     header('location: ../Views/Login.php');
