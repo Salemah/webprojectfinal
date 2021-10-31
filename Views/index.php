@@ -24,7 +24,7 @@
     </div>
   </section>
     <header>
-     <img  id="logo" src="//Resources/images/Lugage.png" alt=""> 
+     <img  id="logo" src="../Resources/images/travel-luggage.png" alt=""> 
         <nav class=""  >
             <ul class="nav-bar">
                 <li><a href="#">Home</a></li>

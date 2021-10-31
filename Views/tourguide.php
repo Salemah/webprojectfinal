@@ -1,3 +1,12 @@
+<?php
+session_start();
+include ('header.php');
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,36 +21,11 @@
     <title>Document</title>
 </head>
 
-<body>
-    <section>
-        <div class="Topbar">
-            <div class="top">
-                <p>We’re here to provide 24/7 at your service</p>
-            </div>
-            <div class="top">
-                <p><i class="fas fa-phone-alt"></i>01844244745 <i class="far fa-envelope"></i> tourhobe.com@gmail.com
-                </p>
-            </div>
-        </div>
-    </section>
+<!-- // if($_SESSION['flag'] = true;){ -->
 
-    <!-- headerstart -->
-    <header>
-        <img id="logo" src="images/travel-luggage.png" alt="">
-        <nav class="">
-            <ul class="nav-bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Package</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Resort</a></li>
-                <li><a href="">ShopHobe</a></li>
-                <li><a href="">RentHobe</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </nav>
-        <a class="btn" href="Login.html">Sign in</a>
-    </header>
-    <!-- headerend -->
+
+ <body>
+
     <main>
         <div class="main-container">
             <div class="color">
@@ -77,20 +61,7 @@
                             <p>Phone: 0097897493</p>
 
                         </div>
-                        <!-- <table id="tddata">
-                            <th>Name</th>
-                            <th>Id</th>
-                            <th>Email</th>
-                            <th>Phone</th>
-                            <th>Password</th>
-                            <tr>
-                                <td>Mushfiq</td>
-                                <td>002</td>
-                                <td>mushfiq@gmail.com</td>
-                                <td>0097897493</td>
-                                <td>123445</td>
-                            </tr>
-                        </table> -->
+                       
                         <div class="guide">
                             <h1 id="guide-p">Packege Guide Price</h1>
                             <div class="bottom-setion">
@@ -130,3 +101,4 @@
 </body>
 
 </html>
+
