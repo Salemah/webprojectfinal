@@ -52,7 +52,7 @@
         <?php  } ?> 
 
         <label>Confirm Password</label>
-        <input type="password" name="confirmpassword" placeholder="" />
+        <input  type="password" name="confirmpassword" placeholder="" />
 
         <?php   if (isset($cnpassworderror)) { ?>
 
@@ -60,7 +60,7 @@
 
         <?php  } ?> 
 
-        <input id="sign-in-button" type="submit" name="submit" value="submit">
+        <input style ="margin-top:10px" id="btn"  type="submit" name="submit" value="submit">
 
         <?php   if (isset($signupproblem)) { ?>
 

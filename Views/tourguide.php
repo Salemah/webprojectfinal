@@ -1,11 +1,16 @@
 <?php
 session_start();
 include ('header.php');
-if(isset($_SESSION['flag'])){
-  
+require_once('../Model/usersmodel.php');
+if(isset($_SESSION['flag']))
+{
+    $conn = getConnection();
+    $email = $_SESSION['email'];
+    $sql = "select * from users where email='$email'";
+    $result = mysqli_query($conn,$sql);
+    $row = mysqli_fetch_assoc($result);
 
-
-    ?>
+?>
 
 
 <!DOCTYPE html>
@@ -33,9 +38,10 @@ if(isset($_SESSION['flag'])){
                 <div class="profile-pic">
                     <div class="top-pic">
                         <img src="images/pro.jpg" alt="">
-                        <?php  
+                        <p><?= $row['username'] ?></p>
+                        <p><?php  
                         echo $_SESSION['email'];
-                        ?>
+                        ?></p>
                     </div>
                     <div class="list">
                         <li> <a href="">My Profile </a> </li>
@@ -56,9 +62,9 @@ if(isset($_SESSION['flag'])){
                     <div class="">
                         <h1>Profile Details:</h1>
                         <div class="Guide-Data">
-                            <p>Id: G-002</p>
-                            <p>Name: Mushfiq</p>
-                            <p>Email: mushfiq@gmail.com</p>
+                            <p>Id: <?= $row['id'] ?></p>
+                            <p>Name: <?= $row['username'] ?></p>
+                            <p>Email: <?= $row['email'] ?></p>
                             <p>Phone: 0097897493</p>
 
                         </div>

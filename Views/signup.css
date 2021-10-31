@@ -31,6 +31,7 @@ body {
   form {
     width: 300px;
     margin-left: 20px;
+    
   }
   
   form label {
@@ -46,6 +47,7 @@ body {
     border: 1px solid gray;
     border-radius: 6px;
     outline: none;
+    
   }
 form a{
       text-decoration: none;
@@ -80,4 +82,9 @@ form a{
   .para-2 a {
     color: #49c1a2;
   }
-  
+ 
+  form input[type=submit]{
+    margin-top: 10px;
+    background-color: #067DC2;
+
+  }

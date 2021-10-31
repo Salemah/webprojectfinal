@@ -194,3 +194,10 @@ text-decoration: none;
     color: rgb(77, 78, 131);
     font-size: 18px;
 }
+#logout-button{
+    margin-top: 50px;
+    background-color: #067DC2;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

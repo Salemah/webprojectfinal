@@ -1,4 +1,15 @@
-
+<?php
+session_start();
+include ('header.php');
+require_once('../Model/usersmodel.php');
+if(isset($_SESSION['flag'])){
+    $conn = getConnection();
+    $email = $_SESSION['email'];
+    $sql = "select * from users where email='$email'";
+    $result = mysqli_query($conn,$sql);
+    $row = mysqli_fetch_assoc($result);
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,9 +33,10 @@
                         <img id="imgs" src="images/travel-luggage.png" alt="">
                     </div>
                     <div class="right-admin">
-                        <?php  session_start();
+                        <p><?= $row['username'] ?></p>
+                       <p> <?php 
                         echo $_SESSION['email'];
-                        ?>
+                        ?></p>
                         <!-- <h3>Admin</h3>
                         <span>admin@gmail.com</span> -->
 
@@ -108,3 +120,6 @@
 </body>
 
 </html>
+<?php }else{
+    header('location: Login.php');
+} ?>
