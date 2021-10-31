@@ -17,45 +17,22 @@ if(isset($_POST['submit'])){
     $usertype = $_POST['usertypes'];
 
 
-   function nameValidation($username){
-        if($username == ""){
-            echo "Name Field Can't be Empty";
-        }else{
-            if(strlen($username) >= 3){
-                return $username;
-        
-            }else{
-                echo "Name should be greater or  equal than three char";
-                echo "</br>";
-            }
-        }
-    }
+    if (empty($email))
+    {
+       $mailerror ='please enter your email';
+   }
 
-    function mailValidation($email){
-        if($email == ""){
-            echo "Mail field is required";
-            echo "</br>";
-    
-        }else{
-            return $email;
-    
-            }
-        }
+   if (empty($username))
+   {
+      $unameerror ='please enter your username';
+  }
+  if (empty($userpassword)) 
+  {
+      $passworderror='please enter your password';
+  }
 
+  
 
-    function passwordValidation($userpassword){
-        if($userpassword == ""){
-                echo "password can't be empty";
-            }else{
-                if(strlen($userpassword) >= 4){
-                   return $userpassword;
-                   
-                }else{
-                    echo "Password not less than 8 char!";
-                }
-            }
-        
-    }
 
     function passwordMatching($userpassword, $confirmpassword){
         if($userpassword == $confirmpassword){
@@ -64,9 +41,14 @@ if(isset($_POST['submit'])){
             return false;
         }
     }
+    include('../views/Signup.php');
 
+  ?>
 
-    if(mailValidation($email) && nameValidation($username) && passwordValidation($userpassword) && passwordMatching($userpassword,$confirmpassword)){
+  <?php
+
+if(empty( $unameerror)&&empty( $mailerror)&&empty( $cnpassworderror) )
+{
         if(passwordMatching($userpassword, $confirmpassword) == true){
             $conn = getConnection();
                 $userinfo = [

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/travel-luggage.png">
+    <link rel="icon" href="../Resources/images/travel-luggage.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@200&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
     </div>
   </section>
     <header>
-     <img  id="logo" src="../Resources/images/travel-luggage.png" alt=""> 
+     <img  id="logo" src="../Resources/../Resources/images/travel-luggage.png" alt=""> 
         <nav class=""  >
             <ul class="nav-bar">
                 <li><a href="#">Home</a></li>
@@ -61,7 +61,7 @@
       <div class="image-cards">
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/1.jpg">
+                  <img src="../Resources/images/1.jpg">
               </div>
               <div class="card-details">
                   <h1>Sylhet Premium Trip</h1>
@@ -74,7 +74,7 @@
           </div>
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/2.jpg">
+                  <img src="../Resources/images/2.jpg">
               </div>
               <div class="card-details">
                   <h1>Sreemangal Day Trip</h1>
@@ -87,7 +87,7 @@
           </div>
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/3.jpg">
+                  <img src="../Resources/images/3.jpg">
               </div>
               <div class="card-details">
                   <h1>Lama-Alikadam Premium Package</h1>
@@ -100,7 +100,7 @@
           </div>
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/4.jpg">
+                  <img src="../Resources/images/4.jpg">
               </div>
               <div class="card-details">
                   <h1>Debotakhum Day Trip</h1>
@@ -122,7 +122,7 @@
       <div class="image-cards">
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/5.jpg">
+                  <img src="../Resources/images/5.jpg">
               </div>
               <div class="card-details">
                   <h1>Sylhet Premium Trip</h1>
@@ -135,7 +135,7 @@
           </div>
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/6.jpg">
+                  <img src="../Resources/images/6.jpg">
               </div>
               <div class="card-details">
                   <h1>Meghpalki Resort Sajek</h1>
@@ -148,7 +148,7 @@
           </div>
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/7.jpg">
+                  <img src="../Resources/images/7.jpg">
               </div>
               <div class="card-details">
                   <h1>Chander Bari Resort Sajek</h1>
@@ -161,7 +161,7 @@
           </div>
           <div class="image-card">
               <div class="image-card-banner">
-                  <img src="images/8.jpg">
+                  <img src="../Resources/images/8.jpg">
               </div>
               <div class="card-details">
                   <h1>Kadombini Eco Resort Sajek</h1>

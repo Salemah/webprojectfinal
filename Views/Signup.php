@@ -5,7 +5,7 @@
 <html lang="en">
   <head>
     <title>Sign Up | By Code Info</title>
-    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="../Views/signup.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"

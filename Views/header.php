@@ -26,10 +26,10 @@
 
     <!-- headerstart -->
     <header>
-        <img id="logo" src="../Resources/images/0.jpeg" alt="">
+        <img id="logo" src="../Resources/images/travel-luggage.png" alt="">
         <nav class="">
             <ul class="nav-bar">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="">Package</a></li>
                 <li><a href="">Events</a></li>
                 <li><a href="">Resort</a></li>
