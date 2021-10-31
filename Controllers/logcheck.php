@@ -2,9 +2,7 @@
 include('../controllers/loginjson.php');
 
 ?>
-
 <?php
-
 require_once('../Model/usersmodel.php');
 session_start();
 if(isset($_POST['login'])){
@@ -12,10 +10,13 @@ if(isset($_POST['login'])){
     $password = $_POST['password'];
     if($email == ""){
 		echo "Enter email";
-	}else{
+	}
+  else
+  {
 		if($password == ""){
 			echo "please, Enter Password";
-		}else{
+		}
+    else{
 		    
     $conn = getConnection();
     $sql = "select * from users where email='$email' and userpassword='$password'";
@@ -24,8 +25,8 @@ if(isset($_POST['login'])){
     if(count($row) > 0){
         if($row["usertype"]=="customer")
             {   
-                 
-                  $_SESSION['email'] = $email;
+              $_SESSION['flag'] = true;
+             $_SESSION['email'] = $email;
                   
           header("location: ../Views/user.php");
 	
@@ -48,7 +49,7 @@ if(isset($_POST['login'])){
                   header("location: ../Views/tourguide.php");
             }
     }else{
-        // echo "Invalid";
+        
         return false;
     }
 		}

@@ -1,3 +1,20 @@
+<?php
+session_start();
+require_once('../Model/usersmodel.php');
+include ('header.php');
+if(isset($_SESSION['flag'])){
+
+    $conn = getConnection();
+    $email = $_SESSION['email'];
+    $sql = "select * from users where email='$email'";
+    $result = mysqli_query($conn,$sql);
+    $row = mysqli_fetch_assoc($result);
+
+
+    ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,8 +33,8 @@
                 <div class="profile-pic">
                     <div class="top-pic">
                         <img src="images/pro.jpg" alt="">
-                        <p>Name</p>
-                        <p><?php  session_start();
+                        <p><?= $row['username'] ?></p>
+                        <p><?php  
                         echo $_SESSION['email'];
                         ?>
                         </p>
@@ -47,11 +64,11 @@
                             <th>Phone</th>
                             <th>Password</th>
                             <tr>
-                                <td>Tanvir</td>
-                                <td>001</td>
-                                <td>tanvir@gmail.com</td>
+                                <td><?= $row['username'] ?></td>
+                                <td><?= $row['id'] ?></td>
+                                <td><?= $row['email'] ?></td>
                                 <td>0097897493</td>
-                                <td>123445</td>
+                                <td><?= $row['userpassword'] ?></td>
                             </tr>
                         </table>
                         <div class="">
@@ -100,3 +117,6 @@
 </body>
 
 </html>
+<?php }else{
+    header('location: Login.php');
+} ?>

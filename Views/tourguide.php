@@ -1,10 +1,11 @@
 <?php
 session_start();
 include ('header.php');
+if(isset($_SESSION['flag'])){
+  
 
-?>
 
-
+    ?>
 
 
 <!DOCTYPE html>
@@ -32,7 +33,7 @@ include ('header.php');
                 <div class="profile-pic">
                     <div class="top-pic">
                         <img src="images/pro.jpg" alt="">
-                        <?php  session_start();
+                        <?php  
                         echo $_SESSION['email'];
                         ?>
                     </div>
@@ -101,4 +102,6 @@ include ('header.php');
 </body>
 
 </html>
-
+<?php }else{
+    header('location: Login.php');
+} ?>

@@ -1,9 +1,5 @@
 <?php
-
- 
-
-  
-  $username = $_POST['username'];
+    $username = $_POST['username'];
     $email = $_POST['email'];
     $userpassword = $_POST['userpassword'];
     $confirmpassword = $_POST['confirmpassword'];
@@ -25,12 +21,8 @@ if(file_exists('../controllers/signup.json'))
             'userpassword' =>    $_POST['userpassword'],
             'confirmpassword' => $_POST['confirmpassword'],
             'username'   =>     $_POST['username'],
-            'usertype'   =>     $_POST['usertype'],
-
-
-     
-
-          );  
+            'usertypes'   =>     $_POST['usertypes'],
+);  
 
           $array_data[] = $extra;  
 
