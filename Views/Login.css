@@ -20,7 +20,7 @@ body{
 .right-half{
     text-align: center;
    padding: 50px 0;
-    background-image: linear-gradient(0deg, rgba(72, 108, 133, 0.6), rgba(17, 15, 16, 0.6)), url(images/7.jpg);
+    background-image: linear-gradient(0deg, rgba(72, 108, 133, 0.6), rgba(17, 15, 16, 0.6)), url('../Resources/images/7.jpg');
     background-size: 500px;
     width: 100%;
     color: white;

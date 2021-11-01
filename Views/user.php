@@ -32,7 +32,7 @@ if(isset($_SESSION['flag'])){
             <div class="color">
                 <div class="profile-pic">
                     <div class="top-pic">
-                        <img src="images/pro.jpg" alt="">
+                        <img src="../Resources/images/pro.jpg" alt="">
                         <p><?= $row['username'] ?></p>
                         <p><?php  
                         echo $_SESSION['email'];
