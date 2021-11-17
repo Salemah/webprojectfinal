@@ -40,7 +40,7 @@ if(isset($_POST['login'])){
             {
                 $_SESSION['flag'] = true;
                   $_SESSION['email'] = $email;
-                  header("location: ../Views/manager.php");
+                  header("location: ../Views/nabil");
                 
             }elseif($row["usertype"]=="tourguide")
             {
