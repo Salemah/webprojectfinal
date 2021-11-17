@@ -47,7 +47,7 @@ if(isset($_SESSION['flag'])){
                     <li> <a href="#"> Dashboard</a> </li>
                     <li><a href="#"> User Data </a></li>
                     <li><a href="#">Packeges</a></li>
-                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Accountss</a></li>
                     <button id="logout-button"><a href="logout.php">Logout</a></button>
                  </div>
             </div>
